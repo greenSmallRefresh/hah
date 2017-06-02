@@ -13,6 +13,7 @@
 		CC93C0C71EE165B1009ED960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC93C0C51EE165B1009ED960 /* Main.storyboard */; };
 		CC93C0C91EE165B1009ED960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC93C0C81EE165B1009ED960 /* Assets.xcassets */; };
 		CC93C0CC1EE165B1009ED960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC93C0CA1EE165B1009ED960 /* LaunchScreen.storyboard */; };
+		CC93C0D51EE165EF009ED960 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CC93C0D41EE165EF009ED960 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CC93C0C81EE165B1009ED960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC93C0CB1EE165B1009ED960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC93C0CD1EE165B1009ED960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC93C0D31EE165EF009ED960 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CC93C0D41EE165EF009ED960 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				CC93C0CA1EE165B1009ED960 /* LaunchScreen.storyboard */,
 				CC93C0CD1EE165B1009ED960 /* Info.plist */,
 				CC93C0BC1EE165B1009ED960 /* Supporting Files */,
+				CC93C0D31EE165EF009ED960 /* Person.h */,
+				CC93C0D41EE165EF009ED960 /* Person.m */,
 			);
 			path = meituan;
 			sourceTree = "<group>";
@@ -110,6 +115,7 @@
 				TargetAttributes = {
 					CC93C0B81EE165B1009ED960 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 2V642Y77Z6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -152,6 +158,7 @@
 			files = (
 				CC93C0C41EE165B1009ED960 /* ViewController.m in Sources */,
 				CC93C0C11EE165B1009ED960 /* AppDelegate.m in Sources */,
+				CC93C0D51EE165EF009ED960 /* Person.m in Sources */,
 				CC93C0BE1EE165B1009ED960 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,9 +281,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2V642Y77Z6;
 				INFOPLIST_FILE = meituan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jq.meituan;
+				PRODUCT_BUNDLE_IDENTIFIER = "jq.demo--1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -285,9 +293,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2V642Y77Z6;
 				INFOPLIST_FILE = meituan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jq.meituan;
+				PRODUCT_BUNDLE_IDENTIFIER = "jq.demo--1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
